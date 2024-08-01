@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with Simeon's NLP Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>Chat with Simeon's NLP Chatbot</h1>
+        </div>
+        <div class="chat-messages" id="chatMessages"></div>
+        <div class="sample-questions">
+            <p>Questions to get you started:</p>
+            <div id="sampleQuestionContainer"></div>
+        </div>
+        <div class="user-input-section">
+            <p>Or ask your own question below:</p>
+            <div class="chat-input">
+                <input type="text" id="userInput" placeholder="Ask Simeon anything...">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
