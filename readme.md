@@ -64,21 +64,8 @@ This project is an interactive Natural Language Processing (NLP) chatbot that si
 
 ## Project Structure
 
-NLP-chatbot/
-│
-├── static/
-│   ├── css/
-│   │   └── style.css
-│   └── js/
-│       └── script.js
-│
-├── templates/
-│   └── index.html
-│
-├── app.py
-├── chatbot.py
-├── requirements.txt
-└── README.md
+![image](https://github.com/user-attachments/assets/b3524867-1b99-4647-8fb0-5adaf7e7f8d5)
+
 
 ## Customization
 
